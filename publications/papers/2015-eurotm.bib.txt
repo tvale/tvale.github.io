@@ -1,0 +1,13 @@
+@inbook{dias-eurotm-2015,
+    author = {Dias, Ricardo J. and Vale, Tiago M. and Louren{\c{c}}o, Jo{\~a}o M.},
+    editor = {Guerraoui, Rachid and Romano, Paolo},
+    title = {Framework Support for the Efficient Implementation of Multi-version Algorithms},
+    bookTitle = {Transactional Memory. Foundations, Algorithms, Tools, and Applications: {COST} Action {Euro-TM} {IC1001}},
+    year = {2015},
+    publisher = {{Springer International Publishing}},
+    pages = {166--191},
+    isbn = {978-3-319-14720-8},
+    doi = {10.1007/978-3-319-14720-8_8},
+    url = {http://dx.doi.org/10.1007/978-3-319-14720-8_8}
+}
+

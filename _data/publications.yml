@@ -1,0 +1,67 @@
+- {
+  year: "2016", month: "12",
+  what: "Pot: Deterministic transactional execution",
+  who: "Tiago Vale, João Silva, Ricardo Dias, João Lourenço",
+  where: "ACM Transaction on Architecture and Code Optimization 13, 4",
+  paper: "https://dl.acm.org/authorize?N20701",
+  slides: "https://speakerdeck.com/tvale/pot-deterministic-transactional-execution",
+  bibtex: "papers/2016-acmtaco.bib.txt",
+}
+- {
+  year: "2015", month: "00",
+  what: "Framework support for the efficient implementation of multiversion algorithms",
+  who: "Ricardo Dias, Tiago Vale, João Lourenço",
+  where: "Transactional memory: Foundations, algorithms, tools, and applications",
+  paper: "papers/2015-eurotm.pdf",
+  bibtex: "papers/2015-eurotm.bib.txt",
+  code: "https://github.com/tvale/TribuSTM",
+}
+- {
+  year: "2015", month: "01",
+  what: "Supporting multiple data replication models in distributed transactional memory",
+  who: "João Silva, Tiago Vale, Ricardo Dias, Hervé Paulino, and João Lourenço",
+  where: "International Conference on Distributed Computing and Networking (ICDCN)",
+  paper: "papers/2015-icdcn.pdf",
+  bibtex: "papers/2015-icdcn.bib.txt",
+}
+- {
+  year: "2015", month: "09",
+  what: "Execução concorrente e determinista de transacções",
+  who: "Tiago Vale, Ricardo Dias, João Silva, and João Lourenço",
+  where: "Simpósio de Informática (INForum)",
+  paper: "papers/2015-inforum.pdf",
+}
+- {
+  year: "2013", month: "12",
+  what: "Efficient support for in-place metadata in Java software transactional memory",
+  who: "Ricardo Dias, Tiago Vale, João Lourenço",
+  where: "Concurrency and Computation: Practice and Experience 25, 17",
+  paper: "papers/2013-ccpe.pdf",
+  bibtex: "papers/2013-ccpe.bib.txt",
+  code: "https://github.com/tvale/TribuSTM",
+}
+- {
+  year: "2013", month: "08",
+  what: "On the relevance of total-order broadcast implementations in replicated software transactional memories",
+  who: "Tiago Vale, Ricardo Dias, João Lourenço",
+  where: "International Conference on Multicore Software Engineering, Performance, and Tools (MUSEPAT)",
+  paper: "papers/2013-musepat.pdf",
+  bibtex: "papers/2013-musepat.bib.txt",
+}
+- {
+  year: "2013", month: "09",
+  what: "Replicação parcial com memória transacional distribuída",
+  who: "João Silva, Tiago Vale, João Lourenço, Hervé Paulino",
+  where: "Simp&oacute;sio de Inform&aacute;tica (INForum)",
+  paper: "papers/2013-inforum.pdf",
+}
+- {
+  year: "2012", month: "08",
+  what: "Efficient support for in-place metadata in transactional memory",
+  who: "Ricardo Dias, Tiago Vale, João Lourenço",
+  where: "International European Conference on Parallel and Distributed Computing (Euro-Par)",
+  award: "Distinguished paper award",
+  paper: "papers/2012-europar.pdf",
+  bibtex: "papers/2012-europar.bib.txt",
+  code: "https://github.com/tvale/TribuSTM",
+}

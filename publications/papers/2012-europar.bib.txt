@@ -1,0 +1,13 @@
+@inproceedings{dias-europar-2012,
+    author = {Dias, Ricardo J. and Vale, Tiago M. and Louren{\c{c}}o, Jo{\~a}o M.},
+    title = {Efficient Support for In-Place Metadata in Transactional Memory},
+    booktitle = {Proceedings of the Internacional European Conference on Parallel and Distributed Computing (Euro-Par)},
+    year = {2012},
+    publisher = {Springer Berlin Heidelberg},
+    address = {Berlin, Heidelberg},
+    pages = {589--600},
+    isbn = {978-3-642-32820-6},
+    doi = {10.1007/978-3-642-32820-6_59},
+    url = {http://dx.doi.org/10.1007/978-3-642-32820-6_59}
+}
+

@@ -1,0 +1,36 @@
+---
+layout: single
+title: Publications
+---
+
+{% assign by_year = site.data.publications | group_by: "year" %}
+{% for year in by_year %}
+    <h2 id="{{ year.name | slugify }}" class="archive__subtitle">{{ year.name }}</h2>
+    {% assign by_month = year.items | group_by: "month" | reverse %}
+    {% for month in by_month %}
+        {% for publication in month.items %}
+            <div class="{{ include.type | default: "list" }}__item">
+                <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+                    <h3 class="archive__item-title" itemprop="headline">{{ publication.what }}</h3>
+                    {% if publication.paper %}
+                        <span><i class="far fa-file-alt fa-fw"></i><a href="{{ publication.paper }}">paper</a></span>
+                    {% endif %}
+                    {% if publication.slides %}
+                      <span><i class="far fa-image fa-fw"></i><a href="{{ publication.slides }}">slides</a></span>
+                    {% endif %}
+                    {% if publication.code %}
+                      <span><i class="far fa-file-code fa-fw"></i><a href="{{ publication.code }}">code</a></span>
+                    {% endif %}
+                    {% if publication.bibtex %}
+                      <span><i class="far fa-comment-alt fa-fw"></i><a href="{{ publication.bibtex }}">bibtex</a></span>
+                    {% endif %}
+                    {% if publication.award %}
+                      <div><i class="fas fa-trophy fa-fw"></i>{{ publication.award }}.</div>
+                    {% endif %}
+                    <div>{{ publication.who }}</div>
+                    <div>{{ publication.where }}</div>
+                </article>
+            </div>
+        {% endfor %}
+    {% endfor %}
+{% endfor %}

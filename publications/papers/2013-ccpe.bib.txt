@@ -1,0 +1,12 @@
+@article{dias-ccpe-2013,
+    author = {Dias, Ricardo J. and Vale, Tiago M. and Louren{\c{c}}o, Jo{\~{a}}o M.},
+    title = {Efficient support for in-place metadata in Java software transactional memory},
+    journal = {Concurrency and Computation: Practice and Experience},
+    volume = {25},
+    number = {17},
+    issn = {1532-0634},
+    url = {http://dx.doi.org/10.1002/cpe.3098},
+    doi = {10.1002/cpe.3098},
+    pages = {2394--2411},
+    year = {2013},
+}
