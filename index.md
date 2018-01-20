@@ -1,5 +1,6 @@
 ---
 layout: single
+title: ""
 ---
 
 ### Well, well, look what the cat dragged in! Hello there.
