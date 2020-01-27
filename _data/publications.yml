@@ -1,4 +1,12 @@
 - {
+  year: "2019", month: "05",
+  what: "Executing requests concurrently in state machine replication",
+  who: "Tiago Vale",
+  where: "Universidade Nova de Lisboa",
+  dissertation: "https://run.unl.pt/bitstream/10362/71218/1/Vale_2019.pdf",
+  slides: "https://speakerdeck.com/tvale/executing-requests-concurrently-in-state-machine-replication",
+}
+- {
   year: "2016", month: "12",
   what: "Pot: Deterministic transactional execution",
   who: "Tiago Vale, João Silva, Ricardo Dias, João Lourenço",

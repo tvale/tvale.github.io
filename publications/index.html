@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Publications
+author_profile: true
 ---
 
 {% assign by_year = site.data.publications | group_by: "year" %}
@@ -14,6 +15,8 @@ title: Publications
                     <h3 class="archive__item-title" itemprop="headline">{{ publication.what }}</h3>
                     {% if publication.paper %}
                         <span><i class="far fa-file-alt fa-fw"></i><a href="{{ publication.paper }}">paper</a></span>
+                    {% elsif publication.dissertation %}
+                        <span><i class="far fa-file-alt fa-fw"></i><a href="{{ publication.dissertation }}">dissertation</a></span>
                     {% endif %}
                     {% if publication.slides %}
                       <span><i class="far fa-image fa-fw"></i><a href="{{ publication.slides }}">slides</a></span>

@@ -1,12 +1,9 @@
-# main links
 main:
-  - title: "Blog"
-    url: /blog/
+  - title: "Posts"
+    url: /posts/
+  - title: "Categories"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
   - title: "Publications"
     url: /publications/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
