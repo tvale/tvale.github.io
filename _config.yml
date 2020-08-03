@@ -59,7 +59,7 @@ plugins:
 author:
   name   : "Tiago Vale"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Software Engineer at MySQL, Oracle. Ph.D. in Computer Science."
+  bio    : "Senior Software Engineer at MemSQL. Ph.D. in Computer Science."
   links:
       #- label: "Website"
       #  icon: "fas fa-fw fa-link"

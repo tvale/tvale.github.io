@@ -9,12 +9,17 @@ title: ""
 
 ## Well, well, look what the cat dragged in! Hello there.
 
-I'm a Software Engineer at [MySQL][mysql], [Oracle][oracle], working on the [Replication team][team].
-Most of the time I work on the [Paxos][paxos]-based [group communication engine][xcom] that powers [MySQL Group Replication][group replication].  
-In 2019 I earned my Ph.D. in Computer Science from [Universidade NOVA de Lisboa][unl], advised by [Ricardo Dias][ricardo] and [João Lourenço][joao].
+I'm a Senior Software Engineer at [MemSQL][memsql], working on the [Engine Engineering][engine-engineering] team.
+
+Previously I was a Software Engineer at [MySQL][mysql], [Oracle][oracle], working on the [Replication team][team].
+Most of the time I worked on the [Paxos][paxos]-based [group communication engine][xcom] that powers [MySQL Group Replication][group replication].
+
+In 2019 I earned my Ph.D. in Computer Science from [Universidade Nova de Lisboa][unl], advised by [Ricardo Dias][ricardo] and [João Lourenço][joao].
 
 All opinions expressed here are my own.
 
+[memsql]: https://www.memsql.com
+[engine-engineering]: https://www.memsql.com/careers/engineering/#teams
 [oracle]: https://www.oracle.com
 [mysql]: https://www.mysql.com
 [team]: https://www.mysqlhighavailability.com
